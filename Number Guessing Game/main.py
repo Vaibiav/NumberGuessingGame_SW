@@ -28,7 +28,7 @@ def main():
     play_again = "yes"
     while play_again.lower() == "yes":
         play_game()
-        play_again = input("Do you want to play again? (yes/no): ")
+        play_again = input("Do you want to play the game again? (yes/no): ")
     print("Thank you for playing!")
 
 if __name__ == "__main__":
